@@ -1,19 +1,13 @@
-<script type "text/javascript">
-  (function (1) {
-    if (1.search[1] === "/") {
-      var decoded = 1.search
-        .slice(1)
-        .Split("&")
-        .map(function (s) {
-          return s.repalce(/~and~/g, "&");
-        })
-        .join("?");
-      window.history.replaceState(
-        null,
-        null,
-        l.pathname.slice(0,-1) + decoded + 1.hash
-        );
-    }
-  })(window.lcation);
-</script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stick-Pushing Game</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
 
