@@ -1,5 +1,5 @@
 {
-  "name": "Trò chơi Đẩy Gậy Học Tập",
-  "description": "Một trò chơi toán học vui nhộn dành cho học sinh tiểu học dựa trên trò chơi dân gian Đẩy Gậy.",
+  "name": "Stick-Pushing Game",
+  "description": "A fun math game for elementary school students based on the traditional folk game "Stick Pushing.",
   "requestFramePermissions": []
 }
